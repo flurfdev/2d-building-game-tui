@@ -1,0 +1,16 @@
+{
+  "name": "2d-building-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "@types/readline-sync": "^1.4.4"
+  },
+  "scripts": {
+    "start": "ts-node ./src/game.ts"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
